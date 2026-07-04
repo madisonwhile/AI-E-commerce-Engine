@@ -1,8 +1,8 @@
 # AI E-Commerce Production Engine
 
-A multi-agent AI system that transforms a simple creative brief into production-ready prompts for high-quality e-commerce imagery.
+A multi-agent AI production engine that transforms a simple creative brief into production-ready creative assets for e-commerce brands.
 
-Rather than requiring users to understand prompt engineering, the engine analyses a brand's identity, product photography, moodboards and campaign goals before generating structured prompts that preserve both product accuracy and creative consistency.
+The system analyses a brand's identity, product photography, moodboards and campaign references before generating multiple prompt types, including catalogue photography, website imagery and cinematic banner video prompts—all while maintaining consistent creative direction.
 
 This project explores how AI can automate creative preparation—not creativity itself.
 
@@ -35,20 +35,27 @@ The engine analyses:
 - Moodboards
 - Existing campaign imagery
 
-The final output is a collection of production-ready prompts designed for image generation models such as Higgsfield.
+The final output is a structured set of production-ready prompts including:
 
+Catalogue product photography
+Website and lifestyle imagery
+Cinematic banner video concepts
+
+allowing brands to generate consistent creative assets across multiple marketing channels from a single creative brief.
 ---
 
 ## Core Features
 
 - Multi-agent workflow architecture
-- Brand analysis from structured creative briefs
+- Learns new brands from structured creative briefs
 - Product understanding using uploaded product photography
 - Moodboard and campaign reference analysis
 - Brand identity extraction
-- Automatic prompt generation
+- Catalogue image prompt generation
+- Website lifestyle image prompt generation
+- Banner video prompt generation
 - Multiple prompt variations per product
-- Reusable architecture capable of supporting different industries
+- Reusable architecture designed for any brand or industry
 
 ---
 
