@@ -1,1 +1,8 @@
+##Lessons Learnt
+- That highly descriptive prompts describing a product don't necessarily produce more accurate outputs. That when using image-to-image generation, the prompt should describe the scene and defer to the image for product accuracy.
+- By splitting each responsiblity between different agents produced deeper and more accurate outputs than a single combined prompt would have.
+- Testing with real data caught product accuracy issues and other errors that never would have been caught reading code alone.
+
+---
+##Unexpected Challeneges
 
