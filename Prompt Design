@@ -1,1 +1,15 @@
+##Initial Prompt Startegy
+In the beginning I had planned to have agent 2 describe each product in extensive detial to describe every detial. Which then I'd pass onto the image genertor.
+I also orginally didn't plan on including a file for the brand's asset library of their real photography examples. I had only provided the product image and moodboard files.
 
+---
+##Problems encountered
+- With the intial prompt strategy I ran into the issue that by providing the image generator the actual product image AND a highly detialed prompt was resulting in them clashing and creating AI distortion. Which is why I got rid of that prompt strategy.
+- Another problem I ran into was that the images created did not have the brand's established aesthetic-it didnt feel like the brand's already existing photography.
+- A small issue I also encountered was that the agents were only analysing max of 5 images in each folder.
+
+---
+##How I solved the problems
+- Due to the descriptive prompt on the product clashing with the actual product image I gave the image generator, I had to make a new prompt strategy. I had decided to have agent 2 rather use the prompt budget to focus on the brand's visual style and rather tell the generator to use the refernce image. This I found created desierable results.
+- To fix the inconsitent brand aesthetic I had decided to provide a folder of the brand's existing photography. This resulted in the system being able to tailor the visual style guide to the established identity of the brand instead of guessing. I am still iterating on this new feature, but so far it is much more accurate.
+- I had simply increased the limit to 10 images, for now. I am aware if I increased it too much it can slow down the system, however I will be testing that limitation. 
