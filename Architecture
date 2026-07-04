@@ -1,6 +1,6 @@
 ##Overall Workflow
 A multi-agent thaqt is given a client brief, real product images, a moodboard, and the brand's asset library.
-The tool runs four AI agents in sequence to produce a full set of image and video prompts. One complete set per product, organised into folders to generate.
+The system runs four AI agents in sequence to produce a full set of image and video prompts. One complete set per product, organised into folders to generate.
 
 ---
 ##The Agents
@@ -19,8 +19,8 @@ Agent 4. Output: Saves all the prompts into .txt files for each product. Making 
 
 ---
 ##Inputs
-The tool provids questions on the client, which I have to answer for the brief. 
-Then I provide files for the product images, the brands "moodboard" and the brand's asset library containing real photography for the tool to refernce. 
+The system provids questions on the client, which I have to answer for the brief. 
+Then I provide files for the product images, the brands "moodboard" and the brand's asset library containing real photography for the system to refernce. 
 
 ---
 ##Ouputs
@@ -28,6 +28,6 @@ As mentioned, agent 4 outputs per product files. Each containing catalogue shot 
 
 ---
 ##Why each agent is given seperate responsibilites 
-If they weren't given their own individual responsibilites the tool would conclude with shallower decisions which would create very weak outputs. 
+If they weren't given their own individual responsibilites the system would conclude with shallower decisions which would create very weak outputs. 
 By having an agent per role, it allows each agent to focus solely on its one given task with no distractions. So agent 1 gets to just focus on analysing the brand, agent 2 gets to only analyase the product and etc. This deliberate decison allows them to pass on a clean output to the next agent. 
 This allows each agent to work together to create throughly thought through creative direction for the client, instead of a messy output due to one overwhelmed agent doing 4 different jobs. 
