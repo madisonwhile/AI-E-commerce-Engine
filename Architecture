@@ -4,16 +4,19 @@ The system runs four AI agents in sequence to produce a full set of image and vi
 
 ---
 ##The Agents
-Agent 1. Brand Analysis: Reads the inputs provided (client brief, moodboard, product images, asset library) 
-It then analayses the brand's established visual identity such as lighting, composition, colour grading and casting. Then decides the exact visual style guide for shots, images and video to pass onto the next agents.
+Agent 1. Brand Analysis: 
+Input- Reads the inputs provided (client brief, moodboard, product images, asset library) 
+Purpose- It then analayses the brand's established visual identity such as lighting, composition, colour grading and casting. 
+Ouput- Then decides the exact visual style guide for shots, images and video to pass onto the next agents.
 
-Agent 2. Product Analysis: It analyses each product given and extracts every visible detial such as, shape, colour, material, hardware etc. 
-It then builds per product spec to pass onto the next agent. 
+Agent 2. Product Analysis: 
+Purpose- It analyses each product given and extracts every visible detial such as, shape, colour, material, hardware etc. 
+Ouput- It then builds per product spec to pass onto the next agent. 
 
-Agent 3. Prompt Writing: It uses the visual guide (agent 1) and per product spec (agent 2) to write scene-focused prompts.
-Will deliberately avoid redescribing the product in vivid detail. (causes AI distorition)
-Instead it will instruct the image generator that will be used to refernce the given product image. 
-This allows the prompt budget to be spent on the scene, lighting and atmosphere instead on the product alone. 
+Agent 3. Prompt Writing: 
+Input- It uses the visual guide (agent 1) and per product spec (agent 2) to write scene-focused prompts.
+Purpose- Will deliberately avoid redescribing the product in vivid detail. (causes AI distorition). Instead it will instruct the image generator that will be used to refernce the given product image. 
+Ouput- This allows the prompt budget to be spent on the scene, lighting and atmosphere instead on the product alone. 
 
 Agent 4. Output: Saves all the prompts into .txt files for each product. Making it ready to paste into Higgsfield. 
 
