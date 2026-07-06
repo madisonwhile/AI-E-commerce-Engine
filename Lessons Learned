@@ -5,4 +5,8 @@
 
 ---
 ##Unexpected Challeneges
+- The photoshot counts were being ignored, I'd enter "1 catalogue prompt" and then get 5 back. Agent 1 wasn't told how many shot types to produce, so claude went by its own judgement. This was fixed by giving explicit count instruction.
+- I had to use Windows Notepad for the .env file and other files. Notepad kept breaking Python indentation, multiple rounds of debugging by hand editing Python files also kept breaking the code that were hard to diagnose from error messages alone.
 
+---
+##I am still actively tweaking this system, so there will be more challenges that emerge and lessons left to learn. 
