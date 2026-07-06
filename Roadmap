@@ -1,1 +1,21 @@
+##Future Ideas
+- API intergration with Higgsfield to automate the entire process. So instead of me pasting the prompts manually into Higgsfield, adding a 5th agent that will do this for me will fully automate the system.
+- Saving client's own brand workspace, so the system can easily recall the client's brief from last time and the content. This is usual because it will help the system remember what was produced last time, this avoids creating similair prompts.
 
+---
+##Version 1.5
+As mentioned in future ideas, I want to re-introduce the 5th agent that automatically pastes the prompts into Higgsfield for me. I want to add this before I build Version 2 of this system.
+This 5th agent was meant to be apart of the system from the beginning but I ran into Higgsfield credit limitations, so I had it temporiarly taken out. But I can easily add it again.
+
+---
+##Version 2
+This is the version I look forward too. I main objective for this system that will make it complete as an internal tool is; adding a frontend. 
+This will replace my current situation where I am having to use this system through the Python terminal. 
+By adding a custom frontend (probably through lovable or claude code), it will not only make it simpler to use but it will be a much better user experience in general. By making sure it has appealing UI and making it easier for users, I believe it has real potential. 
+I have done this before, my project: AI Documentation Assistant, had a simialir journey. I could use it through the backened alone but once it had a frontend, it felt like a complete package. 
+
+---
+##Long-term Vision 
+My ultimate goal is to turn this multi-agent system into a beautiful internal tool that will help me create e-commerce content for brands that won't feel like they're using AI, but rather sustaining the longevity of their identity. Many feel ashamed using AI, but I see it as a way for brands to have full control over the course of a brand's positioning rather than taking away from it.
+Not only that but it allows endless possibilities for creativity. My whole philosophy is that AI isnt here to replace creativity but instead to help optimize people like me who are passionate on creative directions.
+This system will also be apart of a team of 3 total internal tools(for now) that will be used for my creative studio. The goal for this team, is again, to assit me to primarly focus on the creative side instead of fussing over prompts and image generations. 
