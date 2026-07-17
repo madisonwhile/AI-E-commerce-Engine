@@ -15,12 +15,9 @@ I also orginally didn't plan on including a file for the brand's asset library o
 - I had simply increased the limit to 10 images, for now. I am aware if I increased it too much it can slow down the system, however I will be testing that limitation. 
 
 ---
-##Brands Tested
-
-###Rhode
-Outcome:
-- Great consistency 
-- Strong aesthetic matching
-- Product accuracy improved using refernce images
+##Industries tested
+- I tested the 3 most important industries when it comes to e-commerce businesses. To test if the system is truly adaptable to any brand/product.
+- I tested a skincare, food and clothing brand. Each one comes with a different set of goals and expectations when it comes to product accuracy such as shape, colour, fitting and etc. 
+- I was glad I tested these since each one exposed flaws in the system, which lead me to being able to fix them and make it more flexible. 
 
 ##I am still busy experimenting with other brands, to see if the system is consistent no matter the industry or aesthetic. 
