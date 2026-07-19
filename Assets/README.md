@@ -1,1 +1,1 @@
-
+Note: The brands shown in this repository (e.g. Poppi, Rhode, Aritzia) were used solely as publicly available case studies to evaluate and refine the system. This project is an independent technical exploration and is not affiliated with or endorsed by these brands.
